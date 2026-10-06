@@ -1,0 +1,10 @@
+# never commit personal data or receipts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.xlsx
+*.docx
+profile.json
+__pycache__/
+*-workspace/
