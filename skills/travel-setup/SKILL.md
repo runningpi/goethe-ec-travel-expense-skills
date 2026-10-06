@@ -23,8 +23,9 @@ is needed (`pip install pymupdf openpyxl pillow` if an import fails).
    IBAN, bank and lists the cost centres used before. If the PDF is flattened or scanned,
    read it visually and set values with `setup_profile.py set key=value`.
 3. Ask once, in one message, for what is still missing and useful:
-   - which project cost centres they use besides 102 103 17 and when (e.g. "ERC-PoC Data
-     Market 3502030005 – only for ERC-related trips"); store as
+   - the chair's default cost centre (if not found on the old form) and which project cost
+     centres they use and when (e.g. "<project> – only for trips related to that project");
+     store `default_cost_center=...` and
      `cost_centers=[{"id": ..., "label": ..., "rule": ...}]`
    - BahnCard: type, number, validity, price (`bahncard.type=...` etc.) — skip if none
    - for trips abroad: pension/social insurance number, health insurance (gesetzlich/privat),

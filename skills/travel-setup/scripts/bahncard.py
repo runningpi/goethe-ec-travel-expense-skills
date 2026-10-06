@@ -7,7 +7,7 @@ bahncard.json:
   "type": 50,                          # 25 or 50 (default: profile.bahncard.type)
   "number": "1234 5678 9012 3456",  # default: profile
   "price": 79.90, "purchase_date": "10.08.2026",
-  "cost_center": "3502030005",
+  "cost_center": "<cost centre>",
   "date": "06.10.2026",                # letter date, default today
   "trips": [
     {"route": "Frankfurt - Bonn - Frankfurt (Hin- und Rückfahrt)", "date": "11.08.2026",

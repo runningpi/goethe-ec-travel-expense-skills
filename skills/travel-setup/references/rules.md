@@ -100,8 +100,9 @@ letter, trip overview table, BahnCard invoice, payment proof. It is claimed as "
 on the claim of one trip (usually the one that pushes the savings above the price).
 
 ## 7. Chair conventions (Chair of Electronic Commerce)
-- Default cost centre **102 103 17** (chair budget). Project cost centres (e.g. ERC-PoC Data
-  Market **3502030005**) are used **only if the trip is related to that project** — always ask
+- Cost centres come from the user's profile: the chair's default cost centre and possibly
+  project cost centres. A project cost centre is used **only if the trip is related to that
+  project** — always ask
   the user which cost centre applies; never infer it from the application alone (the approved
   application may still show the default cost centre).
 - Applications and claims are checked and signed by the chair holder ("sachlich richtig") and

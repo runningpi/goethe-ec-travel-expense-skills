@@ -22,7 +22,7 @@ booking they point to — read it) and ask **in one message** only for what is m
 - destination city, country, venue address (abroad: needed for the A1 part)
 - dates and approximate start/end times of the travel
 - means of transport (default public transport/train; car, taxi, flight need a reason)
-- cost centre — default 102 103 17; project cost centres only if the trip belongs to the
+- cost centre — the default one from the profile; project cost centres only if the trip belongs to the
   project (see `references/rules.md` §7); ask, don't guess
 - rough total cost estimate (train + hotel + fee; offer to estimate it for them)
 - free accommodation/meals, costs paid by others, private days before/after the trip (must be

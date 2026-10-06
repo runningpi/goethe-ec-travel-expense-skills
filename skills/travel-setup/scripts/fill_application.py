@@ -9,7 +9,7 @@ application.json:
 {
   "country": "Belgien", "destination": "Leuven", "purpose": "Konferenzteilnahme (SALTY 2026)",
   "start": {"date": "26.09.2026", "time": "14:00"}, "end": {"date": "29.09.2026", "time": "17:30"},
-  "cost_center": "3502030005", "estimated_cost": "800",
+  "cost_center": "<cost centre>", "estimated_cost": "800",
   "transport": ["public", "train"],            # public, train, bus, flight, taxi, own_car, official_car, rental_car
   "car_reason": "", "taxi_reason": "",
   "free_lodging": false, "free_meals": false, "third_party_pays": false,

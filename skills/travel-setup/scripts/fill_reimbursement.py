@@ -8,7 +8,7 @@ trip.json (all keys optional except destination/purpose/dates; amounts as number
   "start": {"date": "16.09.2026", "time": "06:26"}, "end": {"date": "18.09.2026", "time": "22:14"},
   "business_start": {"date": "16.09.2026", "time": "12:30"}, "business_end": {"date": "18.09.2026", "time": "17:30"},
   "transport": "Bahn",
-  "cost_center": "102 103 17",                      # default: profile.default_cost_center
+  "cost_center": "<cost centre>",                   # default: profile.default_cost_center
   "own_car": false, "free_meals": true, "free_lodging": false, "hotel_breakfast": true,
   "per_diem": true, "lodging_allowance": false,
   "advance": 0, "ticket_provided": 0,

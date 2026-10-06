@@ -26,10 +26,8 @@ TEMPLATE = {
     "address": "",            # private address
     "iban": "",
     "bank": "",
-    "default_cost_center": "102 103 17",
-    "cost_centers": [
-        {"id": "102 103 17", "label": "Chair budget", "rule": "default"},
-    ],
+    "default_cost_center": "",  # the chair's default cost centre (ask the user)
+    "cost_centers": [],          # [{"id": "...", "label": "Chair budget", "rule": "default"}, ...]
     "position": "Wissenschaftliche/r Mitarbeiter/in; Lehrstuhl Electronic Commerce, FB 02 Wirtschaftswissenschaften; Goethe-Universität",
     "workplace": "Goethe-Universität Frankfurt, Theodor-W.-Adorno-Platz 4, 60323 Frankfurt am Main",
     "social_security_number": "",   # Renten-/Sozialversicherungsnummer, only needed for trips abroad (A1)
